@@ -1,0 +1,7 @@
+- name: SecurityCodeScan
+  # You may pin to the exact commit or the version.
+  # uses: security-code-scan/security-code-scan-results-action@cdb3d5e639054395e45bf401cba8688fcaf7a687
+  uses: security-code-scan/security-code-scan-results-action@v1.3
+  with:
+    # The output directory where SARIF files should be collected.
+    sarif_directory: # optional, default is ../results
